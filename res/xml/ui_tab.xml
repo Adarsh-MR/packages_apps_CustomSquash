@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+>>>>>>> 8a33cdb... Bringup expanded desktop and implement per-user configuration
 <!--  Copyright (C) 2016 Citrus-CAF Project
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -17,6 +21,11 @@
     android:title="@string/ui_title"
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <Preference
+        android:key="expanded_desktop"
+        android:fragment="com.citrus.settings.fragments.ExpandedDesktop"
+        android:title="@string/expanded_desktop_category" />
 
     <com.citrus.settings.preference.GlobalSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
