@@ -65,7 +65,7 @@ public class CustomSquash extends SettingsPreferenceFragment {
     @Override
     public void onResume() {
         super.onResume();
-         mContainer.setPadding(30, 30, 30, 30);         }
+         mContainer.setPadding(30, 30, 30, 30);
     }
 
     class StatusBarAdapter extends FragmentPagerAdapter {
