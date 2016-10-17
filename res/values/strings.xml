@@ -21,6 +21,7 @@
 
     <!-- TABS -->
     <string name="buttons_title">Buttons</string>
+    <string name="statusbar_title">StatusBar</string> 
     <string name="ui_title">Ui</string>
 
     <!-- Volume rocker wake -->
