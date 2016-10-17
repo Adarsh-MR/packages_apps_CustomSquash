@@ -18,4 +18,8 @@
     <!-- custom Squash -->
     <string name="custom_squash_title">Custom Squash!</string>
     <string name="keywords_citrus">Citrus-CAF</string>
+
+    <!-- TABS -->
+    <string name="buttons_title">Buttons</string>
+
     </resources>
